@@ -48,6 +48,9 @@ INSERT INTO `quiz1` (`quiz1_id`, `nom_quiz`, `teacher_id`) VALUES (1, 'QCM Cardi
 INSERT INTO `qst_quiz_1` (`quiz1_id`, `n_question`, `question_text`, `option_1`, `option_2`, `option_3`, `option_4`, `audio_file`) VALUES
 (1, 1, 'Quel souffle est entendu sur ce tracé audio ?', 'Rétrécissement aortique', 'Insuffisance mitrale', 'Communication interauriculaire', 'Normal', 'auscultation_test.mp3');
 
+INSERT INTO `qst_quiz_1` (`quiz1_id`, `n_question`, `question_text`, `option_1`, `option_2`, `option_3`, `option_4`, `audio_file`) 
+VALUES (1, 2, 'Quel est le rythme cardiaque normal au repos ?', '40-50 bpm', '60-100 bpm', '110-120 bpm', 'Plus de 150 bpm', 'rythme_cardiaque.mp3');
+
 -- Quiz 2 : Examen Clinique
 INSERT INTO `quiz2` (`quiz2_id`, `nom_quiz`, `teacher_id`) VALUES (1, 'Examen Clinique Cardiologique', 1);
 INSERT INTO `qst_quiz_2` (`quiz2_id`, `n_question`, `question_text`, `option_1`, `option_2`, `option_3`, `option_4`, `cas_clinique`, `option_correct`) VALUES

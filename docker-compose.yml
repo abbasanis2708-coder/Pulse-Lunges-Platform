@@ -26,6 +26,7 @@ services:
 
   ai:
     build: ./ai_engine
+    command: python app.py
     ports:
       - "5000:5000"
     volumes:
