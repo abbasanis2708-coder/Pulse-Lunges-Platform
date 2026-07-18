@@ -9,7 +9,6 @@ The application is structured into a client-server model using a decoupled archi
 
 ## Architecture
 
-```text
 +-------------------------------------------------------+
 |                USER INTERFACE (Browser)               |
 |  [Quiz 1: Audio]  [Quiz 2: Audio]  [Quiz 3: AI/NLP]   |
