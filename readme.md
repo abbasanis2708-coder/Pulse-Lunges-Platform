@@ -7,12 +7,14 @@ This platform is a specialized medical training tool designed to bridge the gap 
 ## Architecture Overview
 The application is structured into a client-server model using a decoupled architecture for the AI processing module.
 
-```mermaid
-graph TD
-    User[User / Student] --> UI[Web Interface: PHP Frontend]
-    UI --> |Fetch / Save Data| DB[(MySQL Database)]
-    UI --> |Semantic Analysis Request| API[Flask API / Python]
-    API --> |Load Model| Model[DrBERT Model]
+```text
+User / Student
+      |
+      v
+[Web Interface: PHP Frontend] 
+      |  (Fetch / Save Data)   |  (Semantic Analysis Request)
+      v                        v
+[MySQL Database]        [Flask API / Python (DrBERT)]
 
 ## Installation for Users
 1. Clone the repository: `git clone <url>`
