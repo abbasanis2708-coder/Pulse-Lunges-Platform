@@ -121,7 +121,7 @@ The application is structured into a client-server model using a decoupled archi
 - **Environment:** Session synchronization between the PHP frontend and the Flask AI service requires consistent host configuration within the Docker environment.
 
 
-**Project Note:** This platform is a refactored version of a legacy project, featuring **significant upgrades** to the AI/NLP engine, the deployment architecture (Docker/Docker Compose), and the overall backend stability.
+**Project Note:** This platform is a refactored version of a legacy project, featuring **significant upgrades** as the AI/NLP engine, the deployment architecture (Docker/Docker Compose), and the overall backend stability.
 
 ---
 
