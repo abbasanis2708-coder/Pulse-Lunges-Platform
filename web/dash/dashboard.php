@@ -1,14 +1,16 @@
+<?php
+  if (session_status() === PHP_SESSION_NONE) {
+      session_start();
+}
+?>
+
 <head>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
   <link href="css/style.css" rel="stylesheet">
 </head>
-<?php
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
-?>
+
   <div id="wrapper">
     <!-- Sidebar -->
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
@@ -131,7 +133,7 @@ if (session_status() === PHP_SESSION_NONE) {
             <!-- Nav Item - User Information -->
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo "<strong>".strtoupper($_SESSION['nom'])."</strong>"; ?> </span>
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><strong><?php echo strtoupper((string)($_SESSION['nom'] ?? 'ADMIN')); ?></strong> </span>
                 <i class="fas fa-user-shield fa-1x fa-style"></i>
               </a>
               <!-- Dropdown - User Information -->
