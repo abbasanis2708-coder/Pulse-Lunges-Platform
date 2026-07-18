@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_DATABASE: school
+      MYSQL_ROOT_PASSWORD: root_password
+    volumes:
+      - ./data:/var/lib/mysql
+    networks:
+      - app-network
+
+  ai:
+    build: ./ai_engine
+    volumes:
+      - ./ai_engine/model:/app/model
+    networks:
+      - app-network
+
+  web:
+    build: ./web
+    ports:
+      - "8080:80"
+    volumes:
+      - ./web:/var/www/html
+    depends_on:
+      - db
+      - ai
+    networks:
+      - app-network
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - "8081:8080"
+    depends_on:
+      - db
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

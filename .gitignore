@@ -1,0 +1,10 @@
+# Environnements et fichiers système
+.vscode/
+.DS_Store
+__pycache__/
+*.pyc
+.env
+
+# Tes données lourdes (le modèle 5Go et le dataset)
+ai_engine/model/
+/data

@@ -1,0 +1,27 @@
+/* Masquer complètement les éléments non désirés */
+.dataTables_length,
+.dataTables_info,
+.dataTables_paginate,
+div.dataTables_wrapper div.dataTables_length,
+div.dataTables_wrapper div.dataTables_info,
+div.dataTables_wrapper div.dataTables_paginate {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+}
+
+/* Ajuster la barre de recherche */
+.dataTables_filter {
+    float: right;
+    margin-bottom: 10px;
+}
+
+.dataTables_filter input {
+    margin-left: 0.5em;
+    display: inline-block;
+    width: auto;
+}

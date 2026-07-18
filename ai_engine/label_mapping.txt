@@ -1,0 +1,8 @@
+0	antécédents cardiovasculaires
+1	douleur thoracique
+2	durée
+3	facteurs calmants
+4	facteurs déclenchants
+5	irradiation
+6	résultats d'examen
+7	traitements en cours

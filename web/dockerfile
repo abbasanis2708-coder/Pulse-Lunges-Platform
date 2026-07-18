@@ -1,0 +1,14 @@
+# On utilise une image officielle PHP avec Apache
+FROM php:8.2-apache
+
+# Installation des extensions nécessaires pour communiquer avec MySQL (si besoin)
+RUN docker-php-ext-install mysqli pdo pdo_mysql
+
+# On copie tout le contenu du dossier local "web" vers le dossier web d'Apache
+COPY . /var/www/html/
+
+# On donne les droits au serveur web sur tes fichiers
+RUN chown -R www-data:www-data /var/www/html/
+
+# Le port 80 est le port par défaut d'Apache
+EXPOSE 80

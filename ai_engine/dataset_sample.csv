@@ -1,0 +1,55 @@
+question,theme
+Quel type de douleur ressentez-vous dans la poitrine ?,douleur thoracique
+"Est-ce une douleur aiguë, sourde, ou en étau ?",douleur thoracique
+Est-ce que la douleur est constante ou par à-coups ?,douleur thoracique
+"Sur une échelle de 1 à 10, à combien évaluez-vous cette douleur ?",douleur thoracique
+Pouvez-vous me dire si la douleur vous serre comme un étau ou vous brûle ?,douleur thoracique
+Ressentez-vous une pression au niveau du sternum ?,douleur thoracique
+
+
+Sentez-vous comme un courant électrique qui part vers le bras ?,irradiation
+Est-ce que ça vous tire dans la nuque jusqu'aux oreilles ?,irradiation
+Avez-vous une lourdeur qui descend vers le ventre ?,irradiation
+La douleur vous traverse-t-elle jusqu'aux côtes du dos ?,irradiation
+Sentez-vous que ça rayonne vers les deux bras à la fois ?,irradiation
+Est-ce que ça vous prend toute la gorge quand ça arrive ?,irradiation
+
+
+Est-ce que ça arrive après avoir bu du café ?,facteurs déclenchants
+La douleur vient-elle quand vous êtes contrarié ?,facteurs déclenchants
+Est-ce que ça fait mal après avoir couru pour attraper le bus ?,facteurs déclenchants
+La douleur apparaît-elle quand vous riez très fort ?,facteurs déclenchants
+Est-ce que ça arrive quand vous buvez quelque chose de très chaud ?,facteurs déclenchants
+La douleur vient-elle après avoir mangé du gras ?,facteurs déclenchants
+
+
+Est-ce que ça ne dure que le temps de compter jusqu'à dix ?,durée
+La douleur reste-t-elle présente toute la matinée ?,durée
+Est-ce que ça va et ça vient dans la même journée ?,durée
+Les épisodes durent-ils le temps d'une chanson à la radio ?,durée
+La douleur persiste-t-elle pendant que vous regardez un film ?,durée
+Est-ce que ça dure juste quelques battements de cœur ?,durée
+
+
+A-t-on pris votre tension récemment ?,résultats d'examen
+Votre médecin a-t-il entendu un souffle au cœur ?,résultats d'examen
+L'auscultation a-t-elle révélé des bruits anormaux ?,résultats d'examen
+Quels ont été les résultats de votre dernière prise de sang ?,résultats d'examen
+Vos constantes étaient-elles normales lors de votre dernier passage ?,résultats d'examen
+Avez-vous déjà passé un électrocardiogramme ?,résultats d'examen
+
+
+Avez-vous déjà eu un infarctus ou une hospitalisation cardiaque ?,antécédents cardiovasculaires
+Souffrez-vous d'hypertension artérielle ou de diabète ?,antécédents cardiovasculaires
+Avez-vous des antécédents familiaux de maladies cardiaques ?,antécédents cardiovasculaires
+Avez-vous déjà consulté un cardiologue ?,antécédents cardiovasculaires
+Êtes-vous traité pour une pathologie cardiovasculaire ?,antécédents cardiovasculaires
+Votre père ou votre mère a-t-il eu des problèmes cardiaques ?,antécédents cardiovasculaires
+
+
+Utilisez-vous de la trinitrine ou un bêtabloquant ?,traitements en cours
+Avez-vous un traitement anticoagulant ou un antiagrégant plaquettaire ?,traitements en cours
+Suivez-vous un traitement pour le cholestérol ?,traitements en cours
+Quels traitements suivez-vous actuellement ?,traitements en cours
+Avez-vous un traitement quotidien pour la tension artérielle ?,traitements en cours
+Prenez-vous un médicament qui fluidifie le sang ?,traitements en cours
